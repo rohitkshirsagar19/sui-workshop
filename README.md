@@ -3,6 +3,11 @@
 
 A minimal React + Vite application for minting NFTs on the Sui blockchain. This project features a dark, high-tech "Tactical Operations" theme implemented with Tailwind CSS and is integrated with the Sui network using the `@mysten/dapp-kit`.
 
+## Preview
+
+![Sui NFT Minter UI](./public/ui-preview.png)
+
+
 ## Tech Stack
 
 -   **Framework**: [React](https://react.dev/)
