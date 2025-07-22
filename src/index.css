@@ -1,13 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Overriding dapp-kit button styles to match the theme */
+.dapp-kit-connect-button {
+  background-color: #262626 !important;
+  color: #a3a3a3 !important;
+  border: 1px solid #404040 !important;
+  transition: all 0.3s ease;
+  font-family: '"Courier New"', Courier, monospace !important;
+}
+
+.dapp-kit-connect-button:hover {
+  background-color: #404040 !important;
+  color: #ffffff !important;
+  border-color: #525252 !important;
 }

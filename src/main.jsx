@@ -1,4 +1,6 @@
 import '@mysten/dapp-kit/dist/index.css';
+import './index.css'; // Import Tailwind CSS base styles
+
 import { SuiClientProvider, WalletProvider } from '@mysten/dapp-kit';
 import { getFullnodeUrl } from '@mysten/sui/client';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
