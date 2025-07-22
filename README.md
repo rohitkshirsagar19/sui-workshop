@@ -26,12 +26,12 @@ Follow these steps to set up and run the project locally.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/sui-tactical-minter.git
+    git clone git@github.com:rohitkshirsagar19/sui-workshop.git
     ```
 
 2.  **Navigate to the project directory:**
     ```bash
-    cd sui-tactical-minter
+    cd sui-workshop
     ```
 
 3.  **Install the dependencies:**
