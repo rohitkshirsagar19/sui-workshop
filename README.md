@@ -5,7 +5,7 @@ A minimal React + Vite application for minting NFTs on the Sui blockchain. This 
 
 ## Preview
 
-![Sui NFT Minter UI](./public/ui-preview.png)
+![Sui NFT Minter UI](ui.png)
 
 
 ## Tech Stack
