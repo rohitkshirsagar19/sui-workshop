@@ -35,19 +35,22 @@ export default {
         md: 'calc(0.5rem - 2px)',
         sm: 'calc(0.5rem - 4px)',
       },
+      // Add these new sections
+      backgroundImage: {
+        'grid-pattern': `linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+                         linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px)`,
+      },
+      backgroundSize: {
+        'grid-size': '2rem 2rem',
+      },
       keyframes: {
-        'accordion-down': {
-          from: { height: '0' },
-          to: { height: 'var(--radix-accordion-content-height)' },
-        },
-        'accordion-up': {
-          from: { height: 'var(--radix-accordion-content-height)' },
-          to: { height: '0' },
+        'fade-in': {
+          '0%': { opacity: '0', transform: 'scale(0.98)' },
+          '100%': { opacity: '1', transform: 'scale(1)' },
         },
       },
       animation: {
-        'accordion-down': 'accordion-down 0.2s ease-out',
-        'accordion-up': 'accordion-up 0.2s ease-out',
+        'fade-in': 'fade-in 0.5s ease-out forwards',
       },
     },
   },

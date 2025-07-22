@@ -7,6 +7,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Add this new utility class */
+@layer utilities {
+  .bg-grid-pattern {
+    background-image: theme('backgroundImage.grid-pattern');
+    background-size: theme('backgroundSize.grid-size');
+  }
+}
+
 /* Overriding dapp-kit button styles to match the theme */
 .dapp-kit-connect-button {
   background-color: #262626 !important;
