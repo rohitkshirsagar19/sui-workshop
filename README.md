@@ -1,12 +1,56 @@
-# React + Vite
+Of course. Here is a short and professional `README.md` file for your redesigned project.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+# Sui Tactical NFT Minter
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A minimal React + Vite application for minting NFTs on the Sui blockchain. This project features a dark, high-tech "Tactical Operations" theme implemented with Tailwind CSS and is integrated with the Sui network using the `@mysten/dapp-kit`.
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-   **Framework**: [React](https://react.dev/)
+-   **Build Tool**: [Vite](https://vitejs.dev/)
+-   **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+-   **Sui Integration**: [@mysten/dapp-kit](https://sdk.mystenlabs.com/dapp-kit)
+
+## Getting Started
+
+Follow these steps to set up and run the project locally.
+
+### Prerequisites
+
+-   [Node.js](https://nodejs.org/) (v18 or later)
+-   [npm](https://www.npmjs.com/)
+
+### Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/your-username/sui-tactical-minter.git
+    ```
+
+2.  **Navigate to the project directory:**
+    ```bash
+    cd sui-tactical-minter
+    ```
+
+3.  **Install the dependencies:**
+    ```bash
+    npm install
+    ```
+
+## Available Scripts
+
+In the project directory, you can run the following commands:
+
+-   **`npm run dev`**
+    Starts the development server on `http://localhost:5173`.
+
+-   **`npm run build`**
+    Builds the app for production to the `dist` folder.
+
+-   **`npm run preview`**
+    Serves the production build locally to preview it.
+
+-   **`npm run lint`**
+    Runs the ESLint linter to check for code quality issues.
