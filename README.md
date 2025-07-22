@@ -1,6 +1,3 @@
-Of course. Here is a short and professional `README.md` file for your redesigned project.
-
----
 
 # Sui Tactical NFT Minter
 
